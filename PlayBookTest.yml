@@ -19,8 +19,8 @@
 
     - name: Copy a new DockerFile
       copy:
-        src: /home/ec2-user/Dockerfile
-        dest: /home/ec2-user/Dockerfile
+        src: /home/ec2-user/DockerFile
+        dest: /home/ec2-user/DockerFile
         owner: ec2-user
         group: ec2-user
         mode: '0644'
