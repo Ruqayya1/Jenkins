@@ -4,7 +4,7 @@
   tasks:
     - name: Build a docker image
       command: docker build -t web /home/ec2-user
-      - name: Remove a container
+    - name: Remove a container
       command: docker container rm -f mynewapp
           
     - name: Run a container
